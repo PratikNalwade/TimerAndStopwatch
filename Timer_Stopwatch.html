@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timer & Stopwatch</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2> Timer</h2>
+    <input type="time" id="countdownInput">
+    <button onclick="startCountdown()">Start</button>
+    <button onclick="stopCountdown()">Stop</button>
+    <div id="countdownTimer"></div>
+  </div>
+
+  <div class="container">
+    <h2>Stopwatch</h2>
+    <div id="stopwatch">00:00:00</div>
+    <button onclick="startStopwatch()">Start</button>
+    <button onclick="stopStopwatch()">Stop</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
